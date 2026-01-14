@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- background -->
+  <rect width="64" height="64" rx="10" fill="#0B0B0B"></rect>
+
+  <!-- text: I'm -->
+  <text x="32" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" font-weight="900" fill="#FFFFFF">
+    I'm
+  </text>
+
+  <!-- text: cab -->
+  <text x="32" y="50" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" font-weight="900" fill="#FFFFFF">
+    cab
+  </text>
+</svg>
