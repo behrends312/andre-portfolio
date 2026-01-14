@@ -13,10 +13,12 @@ export default function App() {
       <LanguageProvider>
         <BrowserRouter>
           <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projetos/:slug" element={<Project />} />
-          </Routes>
+          <main className="pt-16">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/projetos/:slug" element={<Project />} />
+            </Routes>
+          </main>
         </BrowserRouter>
       </LanguageProvider>
     </ThemeProvider>
